@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+/* header */
+
+.presentacion{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.imagen_fondo{
+    width: 100%;
+    height: 870px;
+    background-image: url(https://cevents.es/wp-content/uploads/2022/05/ficha-convencion.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+.B_C{
+    width: 100%;
+    height: 870px;
+    background-color: rgba(41, 90, 97, 0.6);
+}
+
+.foto{
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+    outline: 5px solid white;
+}
+
+.descripcion{
+    margin: 20px 80px;
+    color: azure;
+    font-family: sans-serif;
+}
+
+/* navegador */
+
